@@ -9,7 +9,8 @@ Both **positive (valid credentials)** and **negative (invalid credentials)** sce
 ## 📂 Project Structure
 
 - /cypress └── /e2e └── login.cy.js
-- /cypress └── /e2e └── login-negative.cy.js #Cypress tests for login functionality
+- /cypress └── /e2e └── login-negative.cy.js
+- /cypress └── /e2e └── login-logout.cy.js # Login + logout test, negative test
 
 ---
 
@@ -20,6 +21,13 @@ Both **positive (valid credentials)** and **negative (invalid credentials)** sce
 - Logs in with **valid username and password**
 - Verifies that the user is redirected to the secure area
 - Checks for visible success message or secure content
+
+### 🔁 Logout Flow Test
+
+- Logs in successfully with valid credentials
+- Clicks the `Log out` button
+- Verifies that the user is redirected back to the login page
+- Confirms login form is visible again
 
 ### ❌ Negative Login Tests
 
