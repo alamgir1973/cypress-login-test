@@ -64,22 +64,16 @@ Mohammed Alamgir – Software Tester in training, learning Cypress, JavaScript, 
 
 ## 📎 License
 
-## 🧩 How to Use This:
+This project is for educational purposes only.
 
+### 🧩 How to Use This:
+
+```yaml
 1. Copy the content above.
 2. Replace your current `README.md` file in your repo root with it.
 3. Update anything marked like `your-username`, `your-repo-name`, or **Your Name**.
-
----
-
-## 🧩 How to Use This:
-
-1. Copy the content above.
-2. Replace your current `README.md` file in your repo root with it.
-3. Update anything marked like `your-username`, `your-repo-name`, or **Your Name**.
-
----
 
 If you want, I can help write a logout test next and guide you on how to push all changes to GitHub with `git commit` and `git push`.
 
 Want to go for that next?
+```
